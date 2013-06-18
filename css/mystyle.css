@@ -1,0 +1,168 @@
+body {
+	background: #ffffff;
+	font: 13px "Optima", "Helvetica", "Arial", sans-serif;
+	color: #333;
+}
+
+header {
+	width: 600px;
+	margin-left: 80px;
+	margin-right: 40px;
+}
+
+footer {
+	width: 600px;
+	margin-left: 80px;
+	margin-right: 40px;
+	font-size: 0.9em;
+}
+
+#container {
+	width: 720px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1.7;
+	position:relative;
+}
+
+#main {
+	margin-left: 80px;
+	margin-right: 40px;
+	width: 640px;
+	position:relative;
+}
+
+strong {
+	font-weight: bold;
+	color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #000;
+}
+
+header {
+	width: 700px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	overflow: auto;
+}
+
+#ox {
+	float: left;
+	margin-right: 20px;
+}
+
+#proposal {
+	line-height: 40px;
+}
+
+#demo {
+	font-size: 1.5em;
+	position: relative;
+	overflow: hidden;
+	height: 750px;
+	margin-left: -70px;
+	width: 900px;
+}
+
+#ipadimg {
+	position: absolute;
+	top: 0px;
+	left: 30px;
+}
+
+#laptopimg {
+	position: absolute;
+	top: 75px;
+	left: 50px;
+	display: none;
+}
+
+#demoinner {
+	width: 600px;
+	position:absolute;
+	top: 110px;
+	left: 150px;
+}
+
+#introduction {
+	margin-top: -5px;
+}
+
+.ui-tooltip, .qtip {
+	/* max-width: 600;
+	Warning: max-width cannot be overridden to less restrictive value, change in qtip.css itself */
+}
+
+blockquote {
+	background-color: #ddd;
+	padding: 10px 20px;
+	margin: 0;
+}
+
+a, a:visited {
+	color: #00e;
+	text-decoration: none;
+	border-bottom: 1px dotted #00e;
+}
+
+a.out {
+	border: none;
+	text-decoration: underline;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAFZJREFUeF59z4EJADEIQ1F36k7u5E7ZKXeUQPACJ3wK7UNokVxVk9kHnQH7bY9hbDyDhNXgjpRLqFlo4M2GgfyJHhjq8V4agfrgPQX3JtJQGbofmCHgA/nAKks+JAjFAAAAAElFTkSuQmCC) center right no-repeat;
+	background: url(external-link.png) center right no-repeat!ie;
+	padding-right: 13px;
+	color: #36B;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+	border: none;
+}
+
+.TKAdjustableNumber {
+	color: #00e;
+	border-bottom: 1px dotted #00e;
+}
+
+.TKAdjustableNumberDown {
+	color: #008;
+	border-bottom: 1px dotted #008;
+}
+
+#wavehelp {
+	position: absolute;
+	left: 50%;
+	top: 30%;
+	margin-left: -75px;
+	margin-top: -10px;
+	width: 150px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	font-size: 2em;
+	cursor: pointer;
+}
+
+#wave {
+	cursor: pointer;
+}
+
+.ui-tooltip-content {
+	font-size: 13px;
+	line-height: 22px;
+}
+
+.print {
+	display: none;
+}
+
+@media print {
+	a[href]:after { content: ""; }
+	a, a.out, a:visited { padding-right: 0px; text-decoration: none; border: none; color: black; }
+	.print { display: block; }
+	header, #main { margin-left: 40px; }
+	body { margin: 20px; color: black; }
+	.noprint { display: none; }
+}
